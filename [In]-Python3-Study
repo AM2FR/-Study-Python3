@@ -31,7 +31,15 @@
 # 関数
 　　def 関数名
 　　　　return 処理式
-    
+
+# フィボナッチ数列
+　　一つ前と2つ前の数字を足して並べた数列。
+　　具体例
+　　　　def ClacFib(n)
+　　　　　　if n == 1 or n == 2:
+　　　　　　　　return 1
+　　　　　　else
+　　　　　　　　return ClacFib()
  
 # 予約語
   あらかじめ用意されている変数や組み込みオブジェクト等のこと。
